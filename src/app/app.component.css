@@ -1,0 +1,91 @@
+/* Toolbar Styles */
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  mat-toolbar button {
+    margin-right: 16px;
+  }
+  
+  mat-toolbar div {
+    display: flex;
+    align-items: center;
+  }
+  
+  mat-toolbar div:first-child {
+    flex-grow: 1;
+    margin-left: 24px;
+  }
+  
+  mat-toolbar input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 8px;
+  }
+  
+  mat-toolbar svg {
+    cursor: pointer;
+  }
+  
+  mat-toolbar svg.bi-search {
+    margin-right: 16px;
+  }
+  
+  mat-toolbar mat-icon {
+    margin-left: 16px;
+    cursor: pointer;
+  }
+  
+  mat-toolbar mat-icon:first-of-type {
+    margin-left: 0;
+  }
+  
+  /* Sidenav Container Styles */
+  .sidenav-wrapper {
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  /* Sidenav Styles */
+  mat-sidenav {
+    width: 240px;
+    background-color: #ffffff;
+    padding: 16px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-sidenav a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  mat-sidenav a button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  mat-sidenav a button mat-icon {
+    margin-right: 16px;
+  }
+  
+  mat-sidenav a button span {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  
+  /* Sidenav Content Styles */
+  mat-sidenav-content {
+    padding: 16px;
+    background-color: #f1f1f1;
+  }
+  
